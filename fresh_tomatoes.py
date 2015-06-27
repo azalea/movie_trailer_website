@@ -1,3 +1,8 @@
+'''
+Third party python module to create and show a movie trailer website.
+Downloaded from: https://s3.amazonaws.com/udacity-hosted-downloads/ud036/fresh_tomatoes.py
+'''
+
 import webbrowser
 import os
 import re

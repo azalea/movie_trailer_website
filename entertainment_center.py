@@ -1,7 +1,7 @@
 from media import Movie
 import fresh_tomatoes
 
-
+# Hard code movies to be displayed on the website below
 furious1 = Movie('The Fast and the Furious',
                  'Los Angeles police officer Brian O\'Connor must decide where his loyalties really lie when he becomes enamored with the street racing world he has been sent undercover to destroy.',
                   'http://ia.media-imdb.com/images/M/MV5BMjAwNTQ0Nzc2M15BMl5BanBnXkFtZTcwNTk1MDIwNA@@._V1_SX214_AL_.jpg',
@@ -31,6 +31,7 @@ furious7 = Movie('Furious 7',
                  'http://ia.media-imdb.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_SX214_AL_.jpg',
                  'https://www.youtube.com/watch?v=Skpu5HaVkOc')
 
+# Call fresh_tomatoes.open_movies_page() with the list of movies 
 fresh_tomatoes.open_movies_page([furious1, furious2, furious3, furious4, furious5, furious6, furious7])
 
 
